@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+  
+body {
+    padding: 10px 20px;
+    background-color: #2a799e;
+    color: #fff3b0;
+    font-family: 'Bitter', serif;
+}
+  
+.calculator {
+    width: 400px;
+    margin: 40px auto;
+    background: #2a799e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+}
+  
+.button-key {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.display {
+    font-size: 2rem;
+    padding: 20px 20px;
+    background: #858694;
+    color: #e0e0e0;
+    overflow: auto;
+}
+  
+.btn {
+    width: 25%;
+    height: 4.5rem;
+    border-radius: 0;
+    border: solid 1px #e0e0e0;
+    background-color: #858694;
+    color: #e0e0e0;
+    font-size: 1.5rem;
+}
+  
+.btn-key {
+    width: 50%;
+    border: solid 1px #e0e0e0;
+}
+  
+.btn-operator {
+    background-color: #f5913e;
+    border: solid 1px #e0e0e0;
+    width: 25%;
+}
+  
+.displayNumber {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    color: white;
+    font-size: 2rem;
+}
